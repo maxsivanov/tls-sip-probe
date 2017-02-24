@@ -1,6 +1,6 @@
 {
   "name": "tls-sip-probe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tests SIP-TLS server availability trying to REGISTER into it",
   "main": "index.js",
   "scripts": {

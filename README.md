@@ -26,7 +26,16 @@ It was tested against Asterisk, so is might be not working against other servers
 ```
 var sip = require("tls-sip-probe");
 
-sip.connect("27.0.0.1", 0, "1000", "password", function (err, result) {
+/**
+ * sip.connect(
+ *     host, 
+ *     port (0 for default), 
+ *     user, 
+ *     password
+ * );
+ */
+
+sip.connect("127.0.0.1", 0, "1000", "password", function (err, result) {
 	if (!err) {
 		if (result === sip.results.OK) {
    			console.log("OK");
