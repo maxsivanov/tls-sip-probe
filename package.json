@@ -1,0 +1,11 @@
+{
+  "name": "tls-sip-probe",
+  "version": "1.0.0",
+  "description": "Tests SIP-TLS server availability trying to REGISTER into it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max S. Ivanov <maxsivanov@gmail.com>",
+  "license": "MIT"
+}
