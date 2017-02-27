@@ -5,6 +5,8 @@ This package can be used for:
 * Testing SIP server availability
 * Guess username/password pair is correct 
 
+The package is suitable for testing SIP-TLS servers with self-signed certificates. **Certificate checks are disabled** so be careful. 
+
 To be honest there are several approaches to do so.
 
 * [sipp](http://sipp.sourceforge.net/)
